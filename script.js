@@ -42,7 +42,7 @@ function createCard(icon) {
   card.innerHTML = `
     <div class="card-inner">
       <div class="card-front">
-        <img src="/card%20back.jpeg" alt="Card Back">
+        <img src="/card back.jpeg" alt="Card Back">
       </div>
       <div class="card-back">${icon}</div>
     </div>
@@ -130,4 +130,5 @@ function startGame() {
 
 newGameBtn.addEventListener('click', startGame);
 startGame();
+
 
