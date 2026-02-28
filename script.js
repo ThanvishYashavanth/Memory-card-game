@@ -42,7 +42,7 @@ function createCard(icon) {
   card.innerHTML = `
     <div class="card-inner">
       <div class="card-front">
-        <img src="file:///C:/Users/HP/Desktop/unified%20mentor%20-%20Copy/Memory%20Card%20Game/assets/card%20back.jpeg" alt="Card Back">
+        <img src="/card%20back.jpeg" alt="Card Back">
       </div>
       <div class="card-back">${icon}</div>
     </div>
@@ -130,3 +130,4 @@ function startGame() {
 
 newGameBtn.addEventListener('click', startGame);
 startGame();
+
