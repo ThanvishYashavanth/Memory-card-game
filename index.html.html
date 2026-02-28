@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="C:\Users\HP\Desktop\unified mentor - Copy\Memory Card Game\style.css" />
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>🧠 Memory Card Game</h1>
+
+    <div class="stats">
+      <span>Moves: <strong id="moves">0</strong></span>
+      <span>Time: <strong id="time">0</strong>s</span>
+    </div>
+
+    <div class="grid" id="gameGrid"></div>
+
+    <button id="newGameBtn">New Game</button>
+  </div>
+
+  <div class="overlay hidden" id="winOverlay">
+    <div class="win-box">
+      <h1>🎉 Congratulations!</h1>
+      <h3><center>Best Score : <strong id="bestScore">—</strong></center></h3>
+      <p>Your Score: <strong id="finalScore">0</strong></p>
+      <center><button onclick="startGame()">Play Again</button></center>
+    </div>
+  </div>
+
+  <script src="C:\Users\HP\Desktop\unified mentor - Copy\Memory Card Game\script.js"></script>
+</body>
+</html>
